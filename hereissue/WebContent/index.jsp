@@ -11,7 +11,7 @@
 			height: 100%;
 			
 		}
-	
+	/* 멍청이 */
 		#wordcloud{
 			width: 1500px;
 			height: 700px;
