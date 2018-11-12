@@ -271,7 +271,7 @@
 <body>
 
 <div id=index_full>
-
+<h1>samgukji is life. -박 병 상-</h1>
 <div id=wordcloud>
 
 	<div id=rank1 class="word_box top5">${list.get(0)}</div>
