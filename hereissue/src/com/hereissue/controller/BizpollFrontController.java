@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.hereissue.action.Action;
 import com.hereissue.action.ActionForward;
 import com.hereissue.action.IndexAction;
+import com.hereissue.action.InsertMember;
 
 
 
@@ -62,10 +63,10 @@ public class BizpollFrontController extends HttpServlet {
 			//web에서는 무조건 request, response를 매개변수로 받아야 함
 		}
 		
-		/*else if(command.equals("/constract.bizpoll")) {
-			action = new ConstractAction();
+		else if(command.equals("/insertmember.bizpoll")) {
+			action = new InsertMember();
 			forward = action.excute(request, response);
-		}*/
+		}
 		
 		
 		
